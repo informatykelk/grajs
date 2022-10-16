@@ -1,6 +1,8 @@
-function Start(){
-var c = document.getElementById("gra");
+function start_gra(){
+console.log("Zaczynamy gre");
 
-var context = c.getContext("2d");
-context.fillRect(200,200,100,100);
+var c = document.getElementById("gra").getContext('2d');
+
+c.fillStyle = "red";
+c.fillRect(200,200,100,100);
 }
